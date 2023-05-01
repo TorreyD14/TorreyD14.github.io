@@ -1,0 +1,52 @@
+
+    nav ul li  /* standard menu */
+    {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 15%;
+    list-style-type: none;
+    background: Black;
+    /* Optional */
+    position: sticky;
+    top: 0;
+    }
+    
+    nav ul li a /* standard menu link properties */
+    {
+        display: flex;
+        font-family: Arial; 
+        color: gold;
+        font-size: 18px;
+        text-decoration: none;
+        text-align: right;
+    }
+
+    nav ul li a:hover /* standard menu link look */
+    {
+        background-color: grey;
+    }
+
+    nav ul li ul /* drop down menu */
+    {
+        display: none;
+        position: absolute;
+        background-color: black;
+        padding: 0px;
+        border: 1px inset rgb(188, 161, 11);
+    }
+
+    nav ul li:hover ul
+    {
+        display: block;
+    }
+
+    nav ul li ul li a /* drop down menu link properties */
+    {
+        padding: 5px 15px 5px 5px;
+    }
+
+    nav ul li ul li a:hover /* drop down menu link look */
+    {
+        background-color: gray;
+    }
+
