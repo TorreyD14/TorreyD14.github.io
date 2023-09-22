@@ -30,5 +30,22 @@ nav ul li a /* standard menu link textproperties */
     text-align: right;
 }
 
+nav ul li a:hover /* standard menu link look */
+{
+    background-color: grey;
+}
 
+nav ul li ul /* drop down menu */
+{
+    display: none;
+    position: relative;
+    background-color: black;
+    padding: 0px;
+    border: 1px inset rgb(188, 161, 11);
+}
+
+nav ul li ul li a:hover /* drop down menu link look */
+{
+    background-color: gray;
+}
 
