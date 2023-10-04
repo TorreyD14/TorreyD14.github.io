@@ -36,3 +36,45 @@
         font-size: 1.5rem;
     }
 }
+
+@media print
+{
+    .headcolor
+    {
+        background: none;
+        border-color: grey;
+        color: black;
+        font-family: 'Rozha One', serif;
+    }
+    
+    p
+    {
+        color: black;
+        font-family: 'Rozha One', serif;
+        font-size: 1em;
+    }
+    blockquote
+    {
+        color: black;
+        font-family: 'Rozha One', serif;
+
+    }
+
+    footer
+    {
+        color: black;
+        font-family: 'Rozha One', serif;
+
+    }
+
+    @page
+    {
+        margin: 1in;
+    }
+
+    html
+    {
+        height: 100%;
+    }
+    
+}
