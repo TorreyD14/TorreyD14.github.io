@@ -1,4 +1,3 @@
-
 .headcolor 
 {
     position: sticky;
@@ -7,6 +6,12 @@
     border-color: gold;
     border-style: outset;
     text-align: center;
+}
+
+.main_page
+{
+    height: 100%;
+    width: 100%;
 }
 
 #robinson::first-letter 
@@ -57,7 +62,6 @@
     background: url(images/footer-background.jpg);
     background-size: cover;
 }
-
 
 .box_color
 {
