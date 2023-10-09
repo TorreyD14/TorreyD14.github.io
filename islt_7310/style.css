@@ -69,11 +69,45 @@
     padding: 4px 0px 0px 10px;
 }
 
+th
+{
+    text-align: center;
+}
+
+table
+{
+    width: 50%;
+}
+table, th, td
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+tr:nth-child(odd)
+{
+    background-color: pink;
+    color:black;  
+}
+
+tr:nth-child(even)
+{
+    background-color: lightblue;
+    color:black;  
+}
+
+
 @media(min-width: 600px)
 {
     p
     {
-        font-size: 1.25rem;
+        font-size: 1rem;
+    }
+
+    .tabel
+    {
+        width:25%;
     }
 }
 
@@ -81,7 +115,7 @@
 {
     p
     {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
