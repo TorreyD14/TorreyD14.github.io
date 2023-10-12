@@ -17,7 +17,7 @@
 <body>
     <header>
         <h1 class="headcolor">WELCOME TO THE BLACK BOOK</h1>
-        <h3>Placeholder for secondary heading</h3>
+        <h3>Contact Page</h3>
     </header>
 
     <nav class="navigation">
@@ -42,6 +42,25 @@
         </ul>
     </nav>
 
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        
+        <label for="email">Enter email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <form action="mailto:email@missouri.edu?Subject=Educational%Website%Contact" method="post" enctype="text/plain" required>
+
+
+        <label for="lname">Message to send:</label><br>
+        <textarea name="message" rows="10" cols="30" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form> 
+      
 </html>
 
 <footer class="footer">
