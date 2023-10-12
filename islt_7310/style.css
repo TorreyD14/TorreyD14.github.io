@@ -78,6 +78,7 @@ table
 {
     width: 50%;
 }
+
 table, th, td
 {
     border: 1px solid #000;
@@ -97,8 +98,15 @@ tr:nth-child(even)
     color:black;  
 }
 
+@media(min-width: 800px)
+{
+    p
+    {
+        font-size: 1.2rem;
+    }
+}
 
-@media(min-width: 600px)
+@media(max-width: 600px)
 {
     p
     {
@@ -109,15 +117,15 @@ tr:nth-child(even)
     {
         width:25%;
     }
-}
 
-@media(min-width: 800px)
-{
-    p
+    .formprop
     {
-        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
     }
 }
+
+
 
 @media print
 {
